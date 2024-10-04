@@ -1,2 +1,2 @@
-FROM puri6:1
+FROM puri6:6
 EXPOSE 80/tcp
