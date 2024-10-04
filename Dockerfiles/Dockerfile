@@ -1,5 +1,9 @@
 #base os
 FROM almalinux:8
+#filtering images
+LABEL lang=html\
+      web=nginx\
+      dev=purender
 #insatlling or updating required packages
 RUN yum update -y
 #you are installing webserver
