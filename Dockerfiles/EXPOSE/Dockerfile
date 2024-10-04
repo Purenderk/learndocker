@@ -1,2 +1,2 @@
-FROM cmd:1
+FROM puri6:1
 EXPOSE 80/tcp
